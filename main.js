@@ -6,7 +6,7 @@ var error = $$({
                 <span data-bind="msg"/> \
                 <span id="close">(Click anywhere to close)</span> \
             </div>',
-        style: GrooveStomp.to_css({
+        style: GrooveStomp.css({
             "&": {
                 "position": "fixed",
                 "top": 0,

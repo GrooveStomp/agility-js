@@ -1,6 +1,6 @@
 var GrooveStomp = function() {
     return {
-        to_css: function(obj) {
+        css: function(obj) {
             var type = typeof(obj);
             if (type === "object") {
                 var styles = [];
