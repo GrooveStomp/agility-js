@@ -1,0 +1,7 @@
+Just playing around with Agility.js.
+
+I'm not fond of doing inline html as a multiline JSON string, since Javascript doesn't have a nice way of doing that.
+To combat the "ugliness" of the backslash-newline indicator for JSON multiline strings, I wrote a super basic JSON -> CSS parser.
+Honestly, calling it a parser is a stretch, but the benefits are already there, as now you can write CSS in JSON code so your Agility objects are easier to visually parse.
+
+See helper.js for how I'm "parsing" and main.js for how I'm using it.
